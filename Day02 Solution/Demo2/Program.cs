@@ -15,6 +15,9 @@ namespace Demo2
             //app.MapGet("/", () => "Hello World!");
             //app.MapGet("/Index", () => "Hello Index!");
             app.MapControllerRoute(
+                name: "DefaultWithoutId",
+                pattern: "{controller=Item}/{action=Index}");
+            app.MapControllerRoute(
                 name: "Default",
                 pattern:"{controller=Item}/{action=Index}/{Id:regex(^\\d{{2}}$)}"//I wrote here id with capital I, yet VS can still recongize it and bind it with it's action
                                                       //id is optional

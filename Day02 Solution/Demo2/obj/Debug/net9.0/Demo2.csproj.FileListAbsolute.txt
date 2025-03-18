@@ -27,3 +27,33 @@ D:\C# Projects\MVC\Day02 Solution\Demo2\obj\Debug\net9.0\refint\Demo2.dll
 D:\C# Projects\MVC\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.pdb
 D:\C# Projects\MVC\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.genruntimeconfig.cache
 D:\C# Projects\MVC\Day02 Solution\Demo2\obj\Debug\net9.0\ref\Demo2.dll
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\bin\Debug\net9.0\appsettings.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\bin\Debug\net9.0\Demo2.staticwebassets.endpoints.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\bin\Debug\net9.0\Demo2.exe
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\bin\Debug\net9.0\Demo2.deps.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\bin\Debug\net9.0\Demo2.runtimeconfig.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\bin\Debug\net9.0\Demo2.dll
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\bin\Debug\net9.0\Demo2.pdb
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.AssemblyInfoInputs.cache
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.AssemblyInfo.cs
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.csproj.CoreCompileInputs.cache
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.sourcelink.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\scopedcss\bundle\Demo2.styles.css
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets\msbuild.Demo2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets\msbuild.Demo2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets\msbuild.build.Demo2.props
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Demo2.props
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Demo2.props
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.dll
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\refint\Demo2.dll
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.pdb
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\Demo2.genruntimeconfig.cache
+C:\Users\mahmo\source\repos\MahmoudHany908\MVC-demo02\Day02 Solution\Demo2\obj\Debug\net9.0\ref\Demo2.dll

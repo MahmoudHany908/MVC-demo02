@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Demo2.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Xml.Linq;
 
 namespace Demo2.Controllers
@@ -63,7 +64,7 @@ namespace Demo2.Controllers
             else if (id < 10)
                 return NotFound();
             else
-                return Content($"Movie With Name = {itemName} And Id = {id}", contentType: "text/html");
+                return Content($"Item With Name = {itemName} And Id = {id}", contentType: "text/html");
 
 
         }
@@ -90,6 +91,31 @@ namespace Demo2.Controllers
         }
 
 
+        [HttpPost]
+        public IActionResult TestModelBinding([FromQuery]int id, string itemName)
+        {
+            return Content($"This is {itemName} and this is it's id{id}");
+        }
 
+        //public IActionResult AddChair( Chair chair)//FromHeader doesn't work for complex parameters(like the chair object here)
+        //{
+        //    if (chair is null)
+        //        return BadRequest();
+        //    else
+        //        return Content($"The chair model is{chair.ModelName} with id{chair.Id}");
+        //}
+
+        //Mixed Segment
+        public IActionResult AddChair(Chair chair, int id, string name,int []arr)//If I want to write in query string ModelName and Id
+                                                                       //For vs to recognize them as ModelName and id of the chair I have to specify this
+                                                                       //in the query string ?chair.id=10 & chair.ModelName=office
+                                                                       
+                                                                       //If I want to send a from params values for the array in the quesry string
+                                                                       //YOU MUST send them in order of indices and skip NONE
+                                                                       //arr[0]=&arr[1]=..etc
+        {
+
+            return Content($"");
+        }
     }
 }

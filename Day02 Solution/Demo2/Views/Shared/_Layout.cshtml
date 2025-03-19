@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @* <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" /> *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        body {
+            background-color: #f5f3e6; 
+            font-family: 'Arial', sans-serif;
+        }
+
+        header, footer {
+            background-color: #d7c8a7; 
+        }
+
+        h1, p {
+            color: #5b4d38; 
+        }
+
+        .btn-custom {
+            background-color: #d7c8a7; 
+            color: #5b4d38; 
+            border: none;
+        }
+
+            .btn-custom:hover {
+                background-color: #c1a17b; 
+                transform: scale(1.05);
+            }
+
+        footer p {
+            font-size: 14px;
+            color: #5b4d38;
+        }
+
+        .card {
+            background-color: #f9f9f9; 
+        }
+
+        
+        .fade-in {
+            animation: fadeIn 1.5s ease-out;
+        }
+    </style>
+
+</head>
+<body>
+    @*Start Header*@
+    <header>
+        <center>
+            <nav class="mt-5">
+                @*HTML Tags | Static HTML*@
+                <a href="/Home/Index" class="btn btn-custom m-2">Home</a>
+                @*HTML Helpers | Server-Side [Generates HTML Tags dynamically(Used in .NET Framework)]*@
+                @Html.ActionLink(linkText: "Privacy", actionName: "Privacy", controllerName: "Home", htmlAttributes: new { @class = "btn btn-custom m-2" },routeValues:null)
+                @*Tag Helpers*@
+                <a asp-controller="Home" asp-action="AboutUs" class="btn btn-custom m-2">About Us</a>
+                <a href="/Home/ContactUs" class="btn btn-custom m-2">Contact Us</a>
+                <a href="/Account/SignIn" class="btn btn-outline-light m-2"><b>Sign In</b></a>
+                <a href="/Account/Register" class="btn btn-outline-light m-2"><b>Register</b></a>
+            </nav>
+        </center>
+    </header>
+
+    @*End Header*@
+
+    <div>
+        @RenderBody()
+    </div>
+
+    @*Start Footer*@
+
+    <footer>
+        <center>
+            <div>
+                <p> Copyrights &copy; Korsi @DateTime.Now.Year</p>
+            </div>
+        </center>
+    </footer>
+
+    @*End Footer*@
+</body>
+</html>
